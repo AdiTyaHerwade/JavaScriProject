@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    /* background-color: blueviolet; */
+    background-image: url("blueWood.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    
+}
+.sub-con{
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 72px;
+    font-weight: 800;
+    padding-top: 50px;
+    color: rgba(211, 184, 75, 0.903);
+    text-align: center;
+}
+.left{
+
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(82, 223, 50);
+    margin-top: 25vh;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.right{
+    /* height: 250px; */
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(82, 223, 50);
+    margin-top: 25vh;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+input{
+    height: 50px;
+    width: 273px;
+}
+.output{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 273px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    text-justify: auto;
+    align-self: center;
+
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.btn{
+    background-color: lightyellow;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 28vh;
+    margin-left: 25px;
+    height: 50px;
+}
+.swap{
+    align-items: center;
+    align-self: center;
+    place-items: center;
+    align-content: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    background-color: rgb(232, 154, 106);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 50px;
+}
+@media(max-width: 600px){
+    .sub-con{
+        display: grid;
+        grid-template-rows: auto;
+    }
+    .btn{
+        margin-top: 25px;
+    }
+    .left{
+        margin-top: 25px;
+    }
+    .right{
+        margin-top: 25px;
+    } 
+}
