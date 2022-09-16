@@ -14,13 +14,27 @@
 
         <div class="sub-con">
         <div class="left">
-            <label for="decimal" id="take">Decimal:</label>
+            <label for="cars">Choose a Input:</label>
+
+                <select name="Input" id="take">
+                <option value="Decimal">Decimal</option>
+                <option value="Binary">Binary</option>
+                <option value="Hexadecimal">Hexadecimal</option>
+                <option value="Octal">Octal</option>
+                </select>
             <br>
-            <input type="number" name="decimal" id="dec"  placeholder="Enter Number" >
+            <input type="text" name="decimal" id="dec"  placeholder="Enter Number" >
 
         </div>
         <div class="right">
-            <label for="binary" id="show">Binary:</label>
+            <label for="cars">Choose a Output:</label>
+
+                <select name="Output" id="show">
+                <option value="Decimal">Decimal</option>
+                <option value="Binary">Binary</option>
+                <option value="Hexadecimal">Hexadecimal</option>
+                <option value="Octal">Octal</option>
+                </select>
             <br>
 
             <div class="output" id="output"></div>
@@ -28,7 +42,7 @@
 
         </div>
         <button class="btn" onclick="convert()">Convert</button>
-        <button class="btn" onclick="swap()">Swap</button>
+        <!-- <button class="btn" onclick="swap()">Swap</button> -->
     </div>
     <br><br><br>
     <!-- <div class="swap">
