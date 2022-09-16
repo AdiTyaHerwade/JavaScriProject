@@ -54,6 +54,10 @@ input{
     height: 50px;
     width: 273px;
 }
+label{
+    font-size: 15px;
+    color: aqua;
+}
 .output{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 273px;
